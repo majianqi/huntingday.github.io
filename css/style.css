@@ -2,11 +2,11 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 body {
   background: #0f1516;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'FangSong', sans-serif;
 }
-@media (max-width: 33.9em) {
+@media (max-width: 35.9em) {
   body {
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
 }
 .bg-gradient {
@@ -62,7 +62,7 @@ a:hover {
 .push {
   height: 150px;
 }
-@media (max-width: 33.9em) {
+@media (max-width: 35.9em) {
   .push {
     height: 60px;
   }
@@ -102,7 +102,7 @@ section.main {
 section.main .post {
   margin-top: 200px;
 }
-@media (max-width: 33.9em) {
+@media (max-width: 35.9em) {
   section.main .post {
     margin-top: 60px;
   }
@@ -124,7 +124,7 @@ section.main .post .post-header:before {
   border-top: 1px solid #d7ecff;
   transition: left 0.3s ease;
 }
-@media (max-width: 33.9em) {
+@media (max-width: 35.9em) {
   section.main .post .post-header:before {
     display: none;
   }
@@ -141,7 +141,7 @@ section.main .post .post-header:after {
   border-top: 1px solid #d7ecff;
   transition: right 0.3s ease;
 }
-@media (max-width: 33.9em) {
+@media (max-width: 35.9em) {
   section.main .post .post-header:after {
     display: none;
   }
@@ -158,7 +158,7 @@ section.main .post .post-header h1.title a:visited,
 section.main .post .post-header h1.title a:active {
   border-bottom: none;
 }
-@media (max-width: 33.9em) {
+@media (max-width: 35.9em) {
   section.main .post .post-header h1.title {
     font-size: 2.5em;
   }
@@ -181,7 +181,7 @@ section.main .post .post-header.hover:after {
 section.main .post .content {
   margin-top: 65px;
 }
-@media (max-width: 33.9em) {
+@media (max-width: 35.9em) {
   section.main .post .content {
     margin-top: 40px;
     text-align: justify;
@@ -220,7 +220,7 @@ section.main .post .read-more {
 section.main .post .comments {
   margin-top: 120px;
 }
-@media (max-width: 33.9em) {
+@media (max-width: 35.9em) {
   section.main .post .comments {
     margin-top: 60px;
   }
@@ -365,7 +365,7 @@ section.main .post .content .video-container embed {
 .archive-container {
   margin-top: 50px;
 }
-@media (max-width: 33.9em) {
+@media (max-width: 35.9em) {
   .archive-container {
     margin-top: 0;
   }
@@ -492,7 +492,7 @@ footer.footer-content {
   border-top: 1px dotted #d7ecff;
   text-align: center;
 }
-@media (max-width: 33.9em) {
+@media (max-width: 35.9em) {
   footer.footer-content {
     min-height: 250px;
     padding-top: 60px;
@@ -518,7 +518,7 @@ footer.footer-content ul {
 footer.footer-content .footer-about {
   text-align: left;
 }
-@media (max-width: 47.9em) {
+@media (max-width: 50.9em) {
   footer.footer-content .footer-about h2 {
     text-align: center;
   }
@@ -530,7 +530,7 @@ footer.footer-content .footer-about {
 footer.footer-content .footer-social-icons {
   margin: 80px 0 50px 0;
 }
-@media (max-width: 33.9em) {
+@media (max-width: 35.9em) {
   footer.footer-content .footer-social-icons {
     margin: 30px 0 25px 0;
   }
@@ -557,7 +557,7 @@ code {
   background: rgba(144,144,144,0.1);
 }
 figure.highlight {
-  font-family: monospace;
+  font-family: Consolas;
   color: #a9b7c6;
   border-top: 1px solid #d7ecff;
   background: rgba(144,144,144,0.1);
